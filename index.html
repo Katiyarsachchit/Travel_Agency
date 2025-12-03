@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatra Vibe | Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Yatra Vibe ✈️</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#tips">Travel Tips</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Journey Begins Here</h1>
+            <p>Discover unseen places, authentic cuisines, and unforgettable memories.</p>
+            <a href="#packages" class="btn-main">Find Your Trip</a>
+        </div>
+    </header>
+
+    <section id="packages" class="container">
+        <h2 class="section-title">Popular Packages</h2>
+        <div class="package-grid">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=500&q=80" alt="Goa">
+                <div class="card-body">
+                    <h3>Goa Beach Bliss</h3>
+                    <p>4 Days, 3 Nights. Includes breakfast and water sports.</p>
+                    <div class="price-row">
+                        <span class="price">₹14,999</span>
+                        <button class="btn-book" onclick="openBooking('Goa Beach Bliss')">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=500&q=80" alt="Manali">
+                <div class="card-body">
+                    <h3>Majestic Manali</h3>
+                    <p>5 Days, 4 Nights. Mountain trekking and bonfire nights.</p>
+                    <div class="price-row">
+                        <span class="price">₹18,500</span>
+                        <button class="btn-book" onclick="openBooking('Majestic Manali')">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=500&q=80" alt="Kerala">
+                <div class="card-body">
+                    <h3>Kerala Backwaters</h3>
+                    <p>3 Days, 2 Nights. Houseboat stay with traditional meals.</p>
+                    <div class="price-row">
+                        <span class="price">₹12,000</span>
+                        <button class="btn-book" onclick="openBooking('Kerala Backwaters')">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Travel Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=500&q=80" alt="Taj Mahal">
+                <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=500&q=80" alt="Himalayas">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&q=80" alt="Beach">
+                <img src="https://images.unsplash.com/photo-1533929736472-594e455515e0?w=500&q=80" alt="Jaipur">
+            </div>
+        </div>
+    </section>
+
+    <section id="tips" class="container">
+        <h2 class="section-title">Smart Travel Tips</h2>
+        <div class="tips-container">
+            <div class="tip-box">
+                <div class="icon">🎒</div>
+                <h3>Pack Light</h3>
+                <p>Roll your clothes to save space and avoid wrinkles.</p>
+            </div>
+            <div class="tip-box">
+                <div class="icon">💊</div>
+                <h3>Carry Meds</h3>
+                <p>Always keep a basic first
